@@ -1,0 +1,28 @@
+{
+  "name": "node-redis-monitor",
+  "version": "0.0.0",
+  "description": "node redis monitor",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "node",
+    "redis",
+    "monitor"
+  ],
+  "authors": [
+    "Grady"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.4.2",
+    "core-elements": "Polymer/core-elements#~0.4.2"
+  }
+}

@@ -1,0 +1,36 @@
+string =>
+set key value
+get key
+del key
+
+list =>
+rpush key value
+lpush key value
+lrange key [index_start] [index_end]
+lindex key [index]
+lpop key
+
+set =>
+sadd key value
+srem key value
+smembers key
+sismember key value
+
+hashes =>
+hset key subkey value
+hdel key subkey value
+hget key subkey
+hgetall key
+
+
+
+
+
+
+command: server =>
+client list
+dbsize => Return the number of keys in the currently-selected database.
+FLUSHALL => Delete all the keys of all the existing databases, not just the currently selected one. This command never fails.
+The time-complexity for this operation is O(N), N being the number of keys in the database.
+info [section]
+eg: info memory
