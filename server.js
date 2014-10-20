@@ -1,5 +1,7 @@
 var express = require( "express" );
 var app = express();
+var Redis = require( "./redis_service" );
+var redis = new Redis();
 
 app.use( express.static( __dirname + '/public' ) );
 
